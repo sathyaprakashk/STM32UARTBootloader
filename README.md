@@ -1,11 +1,11 @@
 # STM32UARTBootloader
 STM32uart Bootloader Keil     
 ===================
-[<i class=""></i>Tools Required](#tools-requried)
-[<i class=""></i>Introduction](#Introduction)
-[<i class=""></i>Memory Layout](#Memory-Layout)
-[<i class=""></i>Steps for In Application Programming](#Steps-for-In-Application-Programming)
-[<i class=""></i>References](#References)
+- [<i class=""></i>Tools Required](#tools-requried)
+- [<i class=""></i>Introduction](#Introduction)
+- [<i class=""></i>Memory Layout](#Memory-Layout)
+- [<i class=""></i>Steps for In Application Programming](#Steps-for-In-Application-Programming)
+- [<i class=""></i>References](#References)
 #### <i class=""></i> Tools Required
 -------------------
 1. Keil uVision5 
