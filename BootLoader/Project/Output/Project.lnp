@@ -1,0 +1,18 @@
+--cpu=Cortex-M4.fp
+".\output\main.o"
+".\output\stm32f4xx_it.o"
+".\output\usart.o"
+".\output\timer.o"
+".\output\bootloaderuart.o"
+".\output\startup_stm32f4xx.o"
+".\output\stm32f4xx_gpio.o"
+".\output\stm32f4xx_rcc.o"
+".\output\stm32f4xx_usart.o"
+".\output\misc.o"
+".\output\stm32f4xx_tim.o"
+".\output\stm32f4xx_flash.o"
+".\output\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter ".\Project.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listing\Project.map" -o .\Output\Project.axf
